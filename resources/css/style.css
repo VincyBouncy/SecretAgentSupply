@@ -1,0 +1,171 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Helvetica";
+  color: white;
+  background-color: black;
+  background-repeat: cover;
+
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: Helvetica;
+  color: white;
+  text-align: left;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: Helvetica;
+  color: white;
+  text-align: left;
+}
+
+.container {
+  border: 1px solid white;
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  font-size: 1rem;
+  display: block;
+}
+
+/*HeaderStyling*/
+
+.logo-img {
+  height: 1.5rem;
+  width: auto;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  display: flex;
+  margin: 0.75;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  padding-bottom: 0.5rem;
+}
+
+.logo-img,
+span {
+  padding-top: 0.5rem;
+}
+
+/*MotoStuff Styling*/
+
+.main-banner {
+  width: 100%;
+  height: 25rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.text1 {
+  width: 22rem;
+  height: 0.2rem;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+  padding-left: 2rem;
+  margin-top: 9rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+/*Nav Styling*/
+
+.nav {
+  background-color: firebrick;
+  display: flex;
+}
+
+.nav span {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 4.3rem;
+  display: space-between;
+  text-align: center;
+}
+
+/*Product Grid Styling*/
+
+.product-grid {
+  display: flex;
+  height: 20rem;
+  background-color: white;
+}
+
+.product-img {
+  display: block;
+  border: 4px solid black;
+  height: 15rem;
+  width: 14rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.pen-img {
+  height: 10rem;
+  width: 10rem;
+  padding-top: 1.75rem;
+  padding-left: 2.5rem;
+}
+
+.img-caption {
+  background-color: black;
+  margin-top: 0.68rem;
+  text-align: center;
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+/*LOCATIONS AND HOURS STYLING*/
+
+.location {
+  display: flex;
+  margin: 0;
+  background-color: white;
+  height: 8rem;
+}
+
+.location-caption {
+  height: 2.5rem;
+  width: 35%;
+  margin-top: 2rem;
+  margin-left: 4.5rem;
+  margin-right: 1rem;
+  background-color: black;
+}
+
+/*FOOTER STYLING*/
+
+.footer {
+  height: 5rem;
+  background-color: black;
+  padding-top: 3rem;
+}
+
+.footer span {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+}
